@@ -15,7 +15,7 @@ export const ChatInput = ({ onSend }) => {
       <input
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Type a message..."
+        placeholder="Enter hello..."
         style={{ width: "40%", padding: "10px", fontSize: "16px" }}
       />
       <button onClick={handleSend} style={{ marginLeft: 10, padding: "10px 20px" }}>
